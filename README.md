@@ -20,7 +20,8 @@
 * elixir 
 * elixirc
 * iex
-* mix
+* mix (rake for elixir)
+* dynamo (web framework)
 
 ##Functions
 
