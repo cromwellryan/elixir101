@@ -1,19 +1,34 @@
 # elixir 101
 
-## Erlang ecosystem/history
+## Erlang 
+
+**Runtime**
+
+* Concurrent
+* GC'ed, runtime
+
+**Language**
+
+* Functional (really!)
+* Dynamic
+
+## Elixir
+* Sits on Erlang VM (BEAM)
+* Ruby, Python
 
 ##Tools
 * elixir 
 * elixirc
 * iex
+* mix
 
-##Built in Types
-##Modules
 ##Functions
+
 ##Pattern matching
-File open - {ok, device}, {_,_}
 
 ##Pipeline
+
+## Processes
 
 ## Resources
 * [PragProg Magazine 2013-06](http://pragprog.com/magazines/2013-06/programming-elixir)
