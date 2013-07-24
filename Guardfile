@@ -7,3 +7,7 @@
 guard 'shell' do
   watch(/(.*).exs/) {|m| `elixir #{m[0]}` }
 end
+
+guard 'shell' do
+  watch(/(.+\.ex$)/) { |m| `elixirc #{m[0]}` }
+end
