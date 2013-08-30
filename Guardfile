@@ -5,9 +5,9 @@
 #   watch(%r{file/path}) { `command(s)` }
 #
 guard 'shell' do
-  watch(/(.*).exs/) {|m| `elixir #{m[0]}` }
+  watch(/(.*).exs/) {|m| `mix run #{m[0]}` }
 end
 
 guard 'shell' do
-  watch(/(.+\.ex$)/) { |m| `elixirc #{m[0]}` }
+  watch(/(.+\.ex$)/) { |m| `mix run #{m[0]}` }
 end
